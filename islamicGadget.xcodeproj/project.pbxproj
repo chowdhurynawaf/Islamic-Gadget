@@ -70,11 +70,11 @@
 		4EAA474B23F91B7B004FC46C /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA474A23F91B7B004FC46C /* LocationViewController.swift */; };
 		4EAA474E23F9283E004FC46C /* SairaSemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA474D23F9283E004FC46C /* SairaSemiCondensed-Medium.ttf */; };
 		4EF33F1D2406506A00B648B6 /* Datamodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF33F1C2406506A00B648B6 /* Datamodel.swift */; };
-		A62D0280A454D1D09A1F3144 /* Pods_islamicGadgetArena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0105F29F9E80924D93A08E25 /* Pods_islamicGadgetArena.framework */; };
+		D925D91226C2A1D886DA4622 /* Pods_islamicGadget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F46C267CAAF88A0B5CCA7BE /* Pods_islamicGadget.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0105F29F9E80924D93A08E25 /* Pods_islamicGadgetArena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_islamicGadgetArena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		012C9EAE087C386025005555 /* Pods-islamicGadget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-islamicGadget.debug.xcconfig"; path = "Target Support Files/Pods-islamicGadget/Pods-islamicGadget.debug.xcconfig"; sourceTree = "<group>"; };
 		354CBBBD77257CF7AA86D3A5 /* Pods-islamicGadgetArena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-islamicGadgetArena.release.xcconfig"; path = "Target Support Files/Pods-islamicGadgetArena/Pods-islamicGadgetArena.release.xcconfig"; sourceTree = "<group>"; };
 		3751485123EE8EA3006EF27A /* islamicGadget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = islamicGadget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3751485423EE8EA3006EF27A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +84,7 @@
 		3751485E23EE8EA4006EF27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3751486023EE8EA4006EF27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E10412241F679B00A5BD8D /* dua'sCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "dua'sCollectionViewCell.swift"; sourceTree = "<group>"; };
+		3F46C267CAAF88A0B5CCA7BE /* Pods_islamicGadget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_islamicGadget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42455D712427BCDB000EA18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		4E21EF3C240B961D00229B2E /* salattimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = salattimeCollectionViewCell.swift; sourceTree = "<group>"; };
 		4E21EF3E240BB3A300229B2E /* prayerTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prayerTime.swift; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		4EAA474D23F9283E004FC46C /* SairaSemiCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaSemiCondensed-Medium.ttf"; sourceTree = "<group>"; };
 		4EF33F1C2406506A00B648B6 /* Datamodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datamodel.swift; sourceTree = "<group>"; };
 		4FABC3CC6BB2DFC4B9673F53 /* Pods-islamicGadgetArena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-islamicGadgetArena.debug.xcconfig"; path = "Target Support Files/Pods-islamicGadgetArena/Pods-islamicGadgetArena.debug.xcconfig"; sourceTree = "<group>"; };
+		81B892B85700EE9A1420ABEF /* Pods-islamicGadget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-islamicGadget.release.xcconfig"; path = "Target Support Files/Pods-islamicGadget/Pods-islamicGadget.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A62D0280A454D1D09A1F3144 /* Pods_islamicGadgetArena.framework in Frameworks */,
+				D925D91226C2A1D886DA4622 /* Pods_islamicGadget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +161,7 @@
 		0BCDC6AD26831B2B3E3DE4F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0105F29F9E80924D93A08E25 /* Pods_islamicGadgetArena.framework */,
+				3F46C267CAAF88A0B5CCA7BE /* Pods_islamicGadget.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,11 +188,11 @@
 			isa = PBXGroup;
 			children = (
 				4E6AA290241CED2200448A87 /* Hajj */,
-				4E6AA27C241CE0D000448A87 /* more merged */,
-				4E6AA26C241CDCAA00448A87 /* ramadan real */,
-				4E6AA261241CDBBB00448A87 /* salat real */,
-				4E6AA250241CB10000448A87 /* kalima real */,
-				4E6AA243241CB02500448A87 /* compass real */,
+				4E6AA27C241CE0D000448A87 /* more */,
+				4E6AA26C241CDCAA00448A87 /* ramadan */,
+				4E6AA261241CDBBB00448A87 /* salat */,
+				4E6AA250241CB10000448A87 /* kalima */,
+				4E6AA243241CB02500448A87 /* compass */,
 				4E6582192414E32700E73543 /* Notification */,
 				4E3F08F4240CD460000FEBA9 /* TutorialPagesOnFirstBoot */,
 				4E0ED7F823FD2DD90069FDE3 /* Home */,
@@ -261,7 +263,7 @@
 			path = Notification;
 			sourceTree = "<group>";
 		};
-		4E6AA243241CB02500448A87 /* compass real */ = {
+		4E6AA243241CB02500448A87 /* compass */ = {
 			isa = PBXGroup;
 			children = (
 				4E6AA248241CB0BF00448A87 /* CLLocation+Extension.swift */,
@@ -271,10 +273,10 @@
 				4E6AA246241CB0B700448A87 /* MapViewControllerDelegate.swift */,
 				4E6AA247241CB0BB00448A87 /* UserDefauts+Extensions.swift */,
 			);
-			path = "compass real";
+			path = compass;
 			sourceTree = "<group>";
 		};
-		4E6AA250241CB10000448A87 /* kalima real */ = {
+		4E6AA250241CB10000448A87 /* kalima */ = {
 			isa = PBXGroup;
 			children = (
 				4E6AA25D241CD21100448A87 /* Assets.xcassets */,
@@ -283,10 +285,10 @@
 				4E6AA252241CB17800448A87 /* kalimaViewController.swift */,
 				4E6AA25B241CB6B700448A87 /* kalimaCustomTableViewCell.swift */,
 			);
-			path = "kalima real";
+			path = kalima;
 			sourceTree = "<group>";
 		};
-		4E6AA261241CDBBB00448A87 /* salat real */ = {
+		4E6AA261241CDBBB00448A87 /* salat */ = {
 			isa = PBXGroup;
 			children = (
 				4E6AA264241CDBF000448A87 /* customsalatTableViewCell.swift */,
@@ -295,10 +297,10 @@
 				4E6AA266241CDBF800448A87 /* salatTableViewCell.swift */,
 				4E6AA263241CDBEC00448A87 /* salatViewController.swift */,
 			);
-			path = "salat real";
+			path = salat;
 			sourceTree = "<group>";
 		};
-		4E6AA26C241CDCAA00448A87 /* ramadan real */ = {
+		4E6AA26C241CDCAA00448A87 /* ramadan */ = {
 			isa = PBXGroup;
 			children = (
 				4E6AA270241CDCE100448A87 /* ramadanCollectionViewCell.swift */,
@@ -306,10 +308,10 @@
 				4E6AA26D241CDCD500448A87 /* ramadanTableViewCell.swift */,
 				4E6AA26E241CDCD900448A87 /* ramadanViewController.swift */,
 			);
-			path = "ramadan real";
+			path = ramadan;
 			sourceTree = "<group>";
 		};
-		4E6AA27C241CE0D000448A87 /* more merged */ = {
+		4E6AA27C241CE0D000448A87 /* more */ = {
 			isa = PBXGroup;
 			children = (
 				4E6AA285241CE61900448A87 /* Assets.xcassets */,
@@ -321,7 +323,7 @@
 				4E6AA28D241CECDB00448A87 /* locationViewController.swift */,
 				37E10412241F679B00A5BD8D /* dua'sCollectionViewCell.swift */,
 			);
-			path = "more merged";
+			path = more;
 			sourceTree = "<group>";
 		};
 		4E6AA290241CED2200448A87 /* Hajj */ = {
@@ -370,6 +372,8 @@
 			children = (
 				4FABC3CC6BB2DFC4B9673F53 /* Pods-islamicGadgetArena.debug.xcconfig */,
 				354CBBBD77257CF7AA86D3A5 /* Pods-islamicGadgetArena.release.xcconfig */,
+				012C9EAE087C386025005555 /* Pods-islamicGadget.debug.xcconfig */,
+				81B892B85700EE9A1420ABEF /* Pods-islamicGadget.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -462,15 +466,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-islamicGadgetArena/Pods-islamicGadgetArena-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-islamicGadget/Pods-islamicGadget-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-islamicGadgetArena/Pods-islamicGadgetArena-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-islamicGadget/Pods-islamicGadget-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-islamicGadgetArena/Pods-islamicGadgetArena-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-islamicGadget/Pods-islamicGadget-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FC1807655240E80DF9686F58 /* [CP] Check Pods Manifest.lock */ = {
@@ -488,7 +492,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-islamicGadgetArena-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-islamicGadget-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -692,7 +696,7 @@
 		};
 		3751486423EE8EA4006EF27A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FABC3CC6BB2DFC4B9673F53 /* Pods-islamicGadgetArena.debug.xcconfig */;
+			baseConfigurationReference = 012C9EAE087C386025005555 /* Pods-islamicGadget.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -712,7 +716,7 @@
 		};
 		3751486523EE8EA4006EF27A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 354CBBBD77257CF7AA86D3A5 /* Pods-islamicGadgetArena.release.xcconfig */;
+			baseConfigurationReference = 81B892B85700EE9A1420ABEF /* Pods-islamicGadget.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

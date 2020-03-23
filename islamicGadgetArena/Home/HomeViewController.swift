@@ -179,39 +179,41 @@ class HomeViewController: UIViewController  , UITableViewDelegate , UITableViewD
        }
     
     //TODO: SALAT TIME API CALL
+
+   func SalatTime(){
     
-    func SalatTime(){
-        
-        URLSession.shared.dataTask(with: URL(string: "http://api.aladhan.com/v1/calendar?latitude=23.6850&longitude=90.3563&method=2&month=\(month)&year=\(year)")!) { (data, response, error) in
-            
-            guard let data = data else{
-                return
-            }
-            
-            let post = try! JSONDecoder().decode(Salat.self,from:data)
-            
-            let salatNames = post.data[0].timings
-           
-            
-            let ins = post.data[0].timings
-            
-            let mirror = Mirror(reflecting: ins)
-            
-            for child in mirror.children{
-            
-                self.salatTimeArr.append(child.value as! String)
+          
+          URLSession.shared.dataTask(with: URL(string: "http://api.aladhan.com/v1/calendar?latitude=23.6850&longitude=90.3563&method=2&month=\(month)&year=\(year)")!) { (data, response, error) in
               
-            }
-           
-            DispatchQueue.main.async {
+              guard let data = data else{
+                  return
+              }
+              
+              let post = try! JSONDecoder().decode(Salat.self,from:data)
+              
+              let salatNames = post.data[0].timings
+             
+              DispatchQueue.main.async {
+
+              let ins = post.data[0].timings
+              
+              let mirror = Mirror(reflecting: ins)
+              
+              for child in mirror.children{
+              
+                  self.salatTimeArr.append(child.value as! String)
                 
-                
-                 self.collectionView1.reloadData()
-            }
-            
-            
-        }.resume()
-    }
+              }
+             
+              
+                  
+                  
+                   self.collectionView1.reloadData()
+              }
+              
+              
+          }.resume()
+      }
     
     
     
