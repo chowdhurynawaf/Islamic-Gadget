@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SairaSemiCondensed-Medium.ttf">
+            <string>SairaSemiCondensed-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="tJc-Zk-wDj">
+            <objects>
+                <viewController storyboardIdentifier="NotificationViewController" id="hD5-Ks-KmE" customClass="NotificationViewController" customModule="islamicGadgetArena" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OLe-tA-GBk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="06_Kalima - Small - S2" translatesAutoresizingMaskIntoConstraints="NO" id="US4-oB-iKZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5gg-a9-XcR">
+                                <rect key="frame" x="0.0" y="50" width="375" height="92"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Salat Notification" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7G-Ae-Xbq">
+                                        <rect key="frame" x="18" y="8" width="239" height="61"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SairaSemiCondensed-Medium" family="Saira SemiCondensed" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q0u-eF-SkY">
+                                        <rect key="frame" x="288" y="27" width="49" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="NotificationSwitch:" destination="hD5-Ks-KmE" eventType="valueChanged" id="GNM-fP-9ip"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0067462520669999996" green="0.35037672520000002" blue="0.31024363640000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="iuu-WB-Wlp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5gg-a9-XcR" firstAttribute="leading" secondItem="OLe-tA-GBk" secondAttribute="leading" constant="0.01" id="2hJ-m9-qML"/>
+                            <constraint firstItem="US4-oB-iKZ" firstAttribute="height" secondItem="OLe-tA-GBk" secondAttribute="height" id="8jW-cm-LX3"/>
+                            <constraint firstAttribute="trailing" secondItem="5gg-a9-XcR" secondAttribute="trailing" constant="0.01" id="bkx-3y-TDK"/>
+                            <constraint firstItem="5gg-a9-XcR" firstAttribute="top" secondItem="OLe-tA-GBk" secondAttribute="top" constant="50" id="jx6-vA-OUq"/>
+                            <constraint firstItem="US4-oB-iKZ" firstAttribute="leading" secondItem="5gg-a9-XcR" secondAttribute="leading" id="xBD-A2-MCK"/>
+                            <constraint firstItem="US4-oB-iKZ" firstAttribute="top" secondItem="hx7-IS-QjI" secondAttribute="top" id="yHU-SD-0X3"/>
+                            <constraint firstItem="US4-oB-iKZ" firstAttribute="width" secondItem="OLe-tA-GBk" secondAttribute="width" id="yl6-D7-v8P"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hx7-IS-QjI"/>
+                    </view>
+                    <connections>
+                        <outlet property="notificationSwitch" destination="q0u-eF-SkY" id="Gqz-sr-UQv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w2j-cd-2Gm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="99.400299850074973"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="06_Kalima - Small - S2" width="720" height="1280"/>
+    </resources>
+</document>

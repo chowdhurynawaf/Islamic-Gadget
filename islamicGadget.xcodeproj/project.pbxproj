@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3751485523EE8EA3006EF27A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3751485423EE8EA3006EF27A /* AppDelegate.swift */; };
+		3751485723EE8EA3006EF27A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3751485623EE8EA3006EF27A /* HomeViewController.swift */; };
+		3751485A23EE8EA3006EF27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3751485823EE8EA3006EF27A /* Main.storyboard */; };
+		3751485C23EE8EA4006EF27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3751485B23EE8EA4006EF27A /* Assets.xcassets */; };
+		3751485F23EE8EA4006EF27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3751485D23EE8EA4006EF27A /* LaunchScreen.storyboard */; };
+		37E10413241F679B00A5BD8D /* dua'sCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E10412241F679B00A5BD8D /* dua'sCollectionViewCell.swift */; };
+		42455D722427BCDB000EA18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42455D712427BCDB000EA18D /* Assets.xcassets */; };
+		4E21EF3D240B961D00229B2E /* salattimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E21EF3C240B961D00229B2E /* salattimeCollectionViewCell.swift */; };
+		4E21EF3F240BB3A300229B2E /* prayerTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E21EF3E240BB3A300229B2E /* prayerTime.swift */; };
+		4E2B160923FD35AD006B59B7 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B160823FD35AD006B59B7 /* ForgotPasswordViewController.swift */; };
+		4E2B160B23FD3632006B59B7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B160A23FD3632006B59B7 /* SignUpViewController.swift */; };
+		4E2DBB3F240117DE00569DEC /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2DBB3E240117DE00569DEC /* customTableViewCell.swift */; };
+		4E2ECD6623FBCFCE00EBA034 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2ECD6523FBCFCE00EBA034 /* Login.storyboard */; };
+		4E2ECD6823FBCFEA00EBA034 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2ECD6723FBCFEA00EBA034 /* LoginViewController.swift */; };
+		4E3F08F6240CD485000FEBA9 /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3F08F5240CD485000FEBA9 /* Tutorial.storyboard */; };
+		4E3F08F8240CD60E000FEBA9 /* tutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F08F7240CD60E000FEBA9 /* tutorialViewController.swift */; };
+		4E56272F23FBF20500B1DA27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E56272E23FBF20500B1DA27 /* GoogleService-Info.plist */; };
+		4E56273123FBF81800B1DA27 /* AlertClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E56273023FBF81800B1DA27 /* AlertClass.swift */; };
+		4E6582162414E30F00E73543 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6582152414E30F00E73543 /* NotificationViewController.swift */; };
+		4E6582182414E32000E73543 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6582172414E32000E73543 /* Notification.storyboard */; };
+		4E6AA24A241CB0C200448A87 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA244241CB0AF00448A87 /* LocationDelegate.swift */; };
+		4E6AA24B241CB0C200448A87 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA245241CB0B300448A87 /* MapViewController.swift */; };
+		4E6AA24C241CB0C200448A87 /* MapViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA246241CB0B700448A87 /* MapViewControllerDelegate.swift */; };
+		4E6AA24D241CB0C200448A87 /* UserDefauts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA247241CB0BB00448A87 /* UserDefauts+Extensions.swift */; };
+		4E6AA24E241CB0C200448A87 /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA248241CB0BF00448A87 /* CLLocation+Extension.swift */; };
+		4E6AA24F241CB0C200448A87 /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA249241CB0C200448A87 /* CompassViewController.swift */; };
+		4E6AA256241CB17E00448A87 /* kalimaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA252241CB17800448A87 /* kalimaViewController.swift */; };
+		4E6AA257241CB17E00448A87 /* kalimadetilseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA253241CB17B00448A87 /* kalimadetilseViewController.swift */; };
+		4E6AA25C241CB6B700448A87 /* kalimaCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA25B241CB6B700448A87 /* kalimaCustomTableViewCell.swift */; };
+		4E6AA25E241CD21100448A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6AA25D241CD21100448A87 /* Assets.xcassets */; };
+		4E6AA25F241CD56D00448A87 /* kalima.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6AA251241CB17600448A87 /* kalima.storyboard */; };
+		4E6AA267241CDBF800448A87 /* salatdetilseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA262241CDBE800448A87 /* salatdetilseViewController.swift */; };
+		4E6AA268241CDBF800448A87 /* salatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA263241CDBEC00448A87 /* salatViewController.swift */; };
+		4E6AA269241CDBF800448A87 /* customsalatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA264241CDBF000448A87 /* customsalatTableViewCell.swift */; };
+		4E6AA26A241CDBF800448A87 /* myCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA265241CDBF400448A87 /* myCollectionViewCell.swift */; };
+		4E6AA26B241CDBF800448A87 /* salatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA266241CDBF800448A87 /* salatTableViewCell.swift */; };
+		4E6AA271241CDCE100448A87 /* ramadanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA26D241CDCD500448A87 /* ramadanTableViewCell.swift */; };
+		4E6AA272241CDCE100448A87 /* ramadanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA26E241CDCD900448A87 /* ramadanViewController.swift */; };
+		4E6AA273241CDCE100448A87 /* ramadandetilsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA26F241CDCDD00448A87 /* ramadandetilsViewController.swift */; };
+		4E6AA274241CDCE100448A87 /* ramadanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA270241CDCE100448A87 /* ramadanCollectionViewCell.swift */; };
+		4E6AA280241CE10300448A87 /* moreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA27D241CE0FE00448A87 /* moreCollectionViewCell.swift */; };
+		4E6AA281241CE10300448A87 /* moreStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6AA27E241CE10000448A87 /* moreStoryboard.storyboard */; };
+		4E6AA282241CE10300448A87 /* moreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA27F241CE10300448A87 /* moreViewController.swift */; };
+		4E6AA286241CE61900448A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6AA285241CE61900448A87 /* Assets.xcassets */; };
+		4E6AA288241CE93400448A87 /* dua'sViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA287241CE93400448A87 /* dua'sViewController.swift */; };
+		4E6AA28E241CECDC00448A87 /* locationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA28C241CECDB00448A87 /* locationTableViewCell.swift */; };
+		4E6AA28F241CECDC00448A87 /* locationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA28D241CECDB00448A87 /* locationViewController.swift */; };
+		4E6AA293241CED4F00448A87 /* Hajj.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6AA292241CED4F00448A87 /* Hajj.storyboard */; };
+		4E6AA29D241CED9200448A87 /* ZakatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA295241CED7500448A87 /* ZakatTableViewCell.swift */; };
+		4E6AA29E241CED9200448A87 /* Zakat2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA296241CED7900448A87 /* Zakat2ViewController.swift */; };
+		4E6AA29F241CED9200448A87 /* Hajj2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA297241CED7D00448A87 /* Hajj2ViewController.swift */; };
+		4E6AA2A0241CED9200448A87 /* HajjViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA298241CED8100448A87 /* HajjViewController.swift */; };
+		4E6AA2A1241CED9200448A87 /* HajjTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA299241CED8500448A87 /* HajjTableViewCell.swift */; };
+		4E6AA2A2241CED9200448A87 /* Hajj2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA29A241CED8900448A87 /* Hajj2TableViewCell.swift */; };
+		4E6AA2A3241CED9200448A87 /* Zakat2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA29B241CED8D00448A87 /* Zakat2TableViewCell.swift */; };
+		4E6AA2A4241CED9200448A87 /* ZakatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AA29C241CED9200448A87 /* ZakatViewController.swift */; };
+		4E6AA2AB241CFA6600448A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6AA2AA241CFA6600448A87 /* Assets.xcassets */; };
+		4E991D07240BD21F00F4559F /* contentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E991D06240BD21F00F4559F /* contentCollectionViewCell.swift */; };
+		4E998A9F23F2BC2600B6F665 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E998A9E23F2BC2600B6F665 /* PageViewController.swift */; };
+		4EAA474923F91B28004FC46C /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA474823F91B28004FC46C /* Location.storyboard */; };
+		4EAA474B23F91B7B004FC46C /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA474A23F91B7B004FC46C /* LocationViewController.swift */; };
+		4EAA474E23F9283E004FC46C /* SairaSemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA474D23F9283E004FC46C /* SairaSemiCondensed-Medium.ttf */; };
+		4EF33F1D2406506A00B648B6 /* Datamodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF33F1C2406506A00B648B6 /* Datamodel.swift */; };
+		A62D0280A454D1D09A1F3144 /* Pods_islamicGadgetArena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0105F29F9E80924D93A08E25 /* Pods_islamicGadgetArena.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0105F29F9E80924D93A08E25 /* Pods_islamicGadgetArena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_islamicGadgetArena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		354CBBBD77257CF7AA86D3A5 /* Pods-islamicGadgetArena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-islamicGadgetArena.release.xcconfig"; path = "Target Support Files/Pods-islamicGadgetArena/Pods-islamicGadgetArena.release.xcconfig"; sourceTree = "<group>"; };
+		3751485123EE8EA3006EF27A /* islamicGadget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = islamicGadget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3751485423EE8EA3006EF27A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3751485623EE8EA3006EF27A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3751485923EE8EA3006EF27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3751485B23EE8EA4006EF27A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3751485E23EE8EA4006EF27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3751486023EE8EA4006EF27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E10412241F679B00A5BD8D /* dua'sCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "dua'sCollectionViewCell.swift"; sourceTree = "<group>"; };
+		42455D712427BCDB000EA18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
+		4E21EF3C240B961D00229B2E /* salattimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = salattimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E21EF3E240BB3A300229B2E /* prayerTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prayerTime.swift; sourceTree = "<group>"; };
+		4E2B160823FD35AD006B59B7 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		4E2B160A23FD3632006B59B7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4E2DBB3E240117DE00569DEC /* customTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
+		4E2ECD6523FBCFCE00EBA034 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		4E2ECD6723FBCFEA00EBA034 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4E3F08F5240CD485000FEBA9 /* Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		4E3F08F7240CD60E000FEBA9 /* tutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialViewController.swift; sourceTree = "<group>"; };
+		4E56272E23FBF20500B1DA27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E56273023FBF81800B1DA27 /* AlertClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertClass.swift; sourceTree = "<group>"; };
+		4E6582152414E30F00E73543 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		4E6582172414E32000E73543 /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		4E6AA244241CB0AF00448A87 /* LocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		4E6AA245241CB0B300448A87 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4E6AA246241CB0B700448A87 /* MapViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerDelegate.swift; sourceTree = "<group>"; };
+		4E6AA247241CB0BB00448A87 /* UserDefauts+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefauts+Extensions.swift"; sourceTree = "<group>"; };
+		4E6AA248241CB0BF00448A87 /* CLLocation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		4E6AA249241CB0C200448A87 /* CompassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
+		4E6AA251241CB17600448A87 /* kalima.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = kalima.storyboard; sourceTree = "<group>"; };
+		4E6AA252241CB17800448A87 /* kalimaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kalimaViewController.swift; sourceTree = "<group>"; };
+		4E6AA253241CB17B00448A87 /* kalimadetilseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kalimadetilseViewController.swift; sourceTree = "<group>"; };
+		4E6AA25B241CB6B700448A87 /* kalimaCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalimaCustomTableViewCell.swift; sourceTree = "<group>"; };
+		4E6AA25D241CD21100448A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E6AA262241CDBE800448A87 /* salatdetilseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = salatdetilseViewController.swift; sourceTree = "<group>"; };
+		4E6AA263241CDBEC00448A87 /* salatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = salatViewController.swift; sourceTree = "<group>"; };
+		4E6AA264241CDBF000448A87 /* customsalatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customsalatTableViewCell.swift; sourceTree = "<group>"; };
+		4E6AA265241CDBF400448A87 /* myCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E6AA266241CDBF800448A87 /* salatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = salatTableViewCell.swift; sourceTree = "<group>"; };
+		4E6AA26D241CDCD500448A87 /* ramadanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ramadanTableViewCell.swift; sourceTree = "<group>"; };
+		4E6AA26E241CDCD900448A87 /* ramadanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ramadanViewController.swift; sourceTree = "<group>"; };
+		4E6AA26F241CDCDD00448A87 /* ramadandetilsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ramadandetilsViewController.swift; sourceTree = "<group>"; };
+		4E6AA270241CDCE100448A87 /* ramadanCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ramadanCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E6AA27D241CE0FE00448A87 /* moreCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moreCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E6AA27E241CE10000448A87 /* moreStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = moreStoryboard.storyboard; sourceTree = "<group>"; };
+		4E6AA27F241CE10300448A87 /* moreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moreViewController.swift; sourceTree = "<group>"; };
+		4E6AA285241CE61900448A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E6AA287241CE93400448A87 /* dua'sViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "dua'sViewController.swift"; sourceTree = "<group>"; };
+		4E6AA28C241CECDB00448A87 /* locationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationTableViewCell.swift; sourceTree = "<group>"; };
+		4E6AA28D241CECDB00448A87 /* locationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationViewController.swift; sourceTree = "<group>"; };
+		4E6AA292241CED4F00448A87 /* Hajj.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hajj.storyboard; sourceTree = "<group>"; };
+		4E6AA295241CED7500448A87 /* ZakatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZakatTableViewCell.swift; sourceTree = "<group>"; };
+		4E6AA296241CED7900448A87 /* Zakat2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zakat2ViewController.swift; sourceTree = "<group>"; };
+		4E6AA297241CED7D00448A87 /* Hajj2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hajj2ViewController.swift; sourceTree = "<group>"; };
+		4E6AA298241CED8100448A87 /* HajjViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HajjViewController.swift; sourceTree = "<group>"; };
+		4E6AA299241CED8500448A87 /* HajjTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HajjTableViewCell.swift; sourceTree = "<group>"; };
+		4E6AA29A241CED8900448A87 /* Hajj2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hajj2TableViewCell.swift; sourceTree = "<group>"; };
+		4E6AA29B241CED8D00448A87 /* Zakat2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zakat2TableViewCell.swift; sourceTree = "<group>"; };
+		4E6AA29C241CED9200448A87 /* ZakatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZakatViewController.swift; sourceTree = "<group>"; };
+		4E6AA2AA241CFA6600448A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E991D06240BD21F00F4559F /* contentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E998A9E23F2BC2600B6F665 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		4EAA474823F91B28004FC46C /* Location.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Location.storyboard; sourceTree = "<group>"; };
+		4EAA474A23F91B7B004FC46C /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		4EAA474D23F9283E004FC46C /* SairaSemiCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaSemiCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		4EF33F1C2406506A00B648B6 /* Datamodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datamodel.swift; sourceTree = "<group>"; };
+		4FABC3CC6BB2DFC4B9673F53 /* Pods-islamicGadgetArena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-islamicGadgetArena.debug.xcconfig"; path = "Target Support Files/Pods-islamicGadgetArena/Pods-islamicGadgetArena.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3751484E23EE8EA3006EF27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62D0280A454D1D09A1F3144 /* Pods_islamicGadgetArena.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BCDC6AD26831B2B3E3DE4F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0105F29F9E80924D93A08E25 /* Pods_islamicGadgetArena.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3751484823EE8EA3006EF27A = {
+			isa = PBXGroup;
+			children = (
+				3751485323EE8EA3006EF27A /* islamicGadgetArena */,
+				3751485223EE8EA3006EF27A /* Products */,
+				D65F901858A796CAEBE249C5 /* Pods */,
+				0BCDC6AD26831B2B3E3DE4F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3751485223EE8EA3006EF27A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3751485123EE8EA3006EF27A /* islamicGadget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3751485323EE8EA3006EF27A /* islamicGadgetArena */ = {
+			isa = PBXGroup;
+			children = (
+				4E6AA290241CED2200448A87 /* Hajj */,
+				4E6AA27C241CE0D000448A87 /* more merged */,
+				4E6AA26C241CDCAA00448A87 /* ramadan real */,
+				4E6AA261241CDBBB00448A87 /* salat real */,
+				4E6AA250241CB10000448A87 /* kalima real */,
+				4E6AA243241CB02500448A87 /* compass real */,
+				4E6582192414E32700E73543 /* Notification */,
+				4E3F08F4240CD460000FEBA9 /* TutorialPagesOnFirstBoot */,
+				4E0ED7F823FD2DD90069FDE3 /* Home */,
+				4E0ED7F723FD2D900069FDE3 /* Location */,
+				4E0ED7F623FD2D520069FDE3 /* SignUp_SignIn */,
+				4EAA474C23F927C8004FC46C /* Fonts */,
+				3751485423EE8EA3006EF27A /* AppDelegate.swift */,
+				42455D712427BCDB000EA18D /* Assets.xcassets */,
+				3751485D23EE8EA4006EF27A /* LaunchScreen.storyboard */,
+				3751486023EE8EA4006EF27A /* Info.plist */,
+				4E56272E23FBF20500B1DA27 /* GoogleService-Info.plist */,
+			);
+			path = islamicGadgetArena;
+			sourceTree = "<group>";
+		};
+		4E0ED7F623FD2D520069FDE3 /* SignUp_SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				3751485B23EE8EA4006EF27A /* Assets.xcassets */,
+				4E2ECD6523FBCFCE00EBA034 /* Login.storyboard */,
+				4E2ECD6723FBCFEA00EBA034 /* LoginViewController.swift */,
+				4E56273023FBF81800B1DA27 /* AlertClass.swift */,
+				4E2B160823FD35AD006B59B7 /* ForgotPasswordViewController.swift */,
+				4E2B160A23FD3632006B59B7 /* SignUpViewController.swift */,
+			);
+			path = SignUp_SignIn;
+			sourceTree = "<group>";
+		};
+		4E0ED7F723FD2D900069FDE3 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				4EAA474823F91B28004FC46C /* Location.storyboard */,
+				4EAA474A23F91B7B004FC46C /* LocationViewController.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		4E0ED7F823FD2DD90069FDE3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3751485623EE8EA3006EF27A /* HomeViewController.swift */,
+				3751485823EE8EA3006EF27A /* Main.storyboard */,
+				4E991D06240BD21F00F4559F /* contentCollectionViewCell.swift */,
+				4E21EF3C240B961D00229B2E /* salattimeCollectionViewCell.swift */,
+				4E998A9E23F2BC2600B6F665 /* PageViewController.swift */,
+				4E2DBB3E240117DE00569DEC /* customTableViewCell.swift */,
+				4EF33F1C2406506A00B648B6 /* Datamodel.swift */,
+				4E21EF3E240BB3A300229B2E /* prayerTime.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4E3F08F4240CD460000FEBA9 /* TutorialPagesOnFirstBoot */ = {
+			isa = PBXGroup;
+			children = (
+				4E3F08F5240CD485000FEBA9 /* Tutorial.storyboard */,
+				4E3F08F7240CD60E000FEBA9 /* tutorialViewController.swift */,
+			);
+			path = TutorialPagesOnFirstBoot;
+			sourceTree = "<group>";
+		};
+		4E6582192414E32700E73543 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				4E6582152414E30F00E73543 /* NotificationViewController.swift */,
+				4E6582172414E32000E73543 /* Notification.storyboard */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		4E6AA243241CB02500448A87 /* compass real */ = {
+			isa = PBXGroup;
+			children = (
+				4E6AA248241CB0BF00448A87 /* CLLocation+Extension.swift */,
+				4E6AA249241CB0C200448A87 /* CompassViewController.swift */,
+				4E6AA244241CB0AF00448A87 /* LocationDelegate.swift */,
+				4E6AA245241CB0B300448A87 /* MapViewController.swift */,
+				4E6AA246241CB0B700448A87 /* MapViewControllerDelegate.swift */,
+				4E6AA247241CB0BB00448A87 /* UserDefauts+Extensions.swift */,
+			);
+			path = "compass real";
+			sourceTree = "<group>";
+		};
+		4E6AA250241CB10000448A87 /* kalima real */ = {
+			isa = PBXGroup;
+			children = (
+				4E6AA25D241CD21100448A87 /* Assets.xcassets */,
+				4E6AA251241CB17600448A87 /* kalima.storyboard */,
+				4E6AA253241CB17B00448A87 /* kalimadetilseViewController.swift */,
+				4E6AA252241CB17800448A87 /* kalimaViewController.swift */,
+				4E6AA25B241CB6B700448A87 /* kalimaCustomTableViewCell.swift */,
+			);
+			path = "kalima real";
+			sourceTree = "<group>";
+		};
+		4E6AA261241CDBBB00448A87 /* salat real */ = {
+			isa = PBXGroup;
+			children = (
+				4E6AA264241CDBF000448A87 /* customsalatTableViewCell.swift */,
+				4E6AA265241CDBF400448A87 /* myCollectionViewCell.swift */,
+				4E6AA262241CDBE800448A87 /* salatdetilseViewController.swift */,
+				4E6AA266241CDBF800448A87 /* salatTableViewCell.swift */,
+				4E6AA263241CDBEC00448A87 /* salatViewController.swift */,
+			);
+			path = "salat real";
+			sourceTree = "<group>";
+		};
+		4E6AA26C241CDCAA00448A87 /* ramadan real */ = {
+			isa = PBXGroup;
+			children = (
+				4E6AA270241CDCE100448A87 /* ramadanCollectionViewCell.swift */,
+				4E6AA26F241CDCDD00448A87 /* ramadandetilsViewController.swift */,
+				4E6AA26D241CDCD500448A87 /* ramadanTableViewCell.swift */,
+				4E6AA26E241CDCD900448A87 /* ramadanViewController.swift */,
+			);
+			path = "ramadan real";
+			sourceTree = "<group>";
+		};
+		4E6AA27C241CE0D000448A87 /* more merged */ = {
+			isa = PBXGroup;
+			children = (
+				4E6AA285241CE61900448A87 /* Assets.xcassets */,
+				4E6AA27D241CE0FE00448A87 /* moreCollectionViewCell.swift */,
+				4E6AA27E241CE10000448A87 /* moreStoryboard.storyboard */,
+				4E6AA27F241CE10300448A87 /* moreViewController.swift */,
+				4E6AA287241CE93400448A87 /* dua'sViewController.swift */,
+				4E6AA28C241CECDB00448A87 /* locationTableViewCell.swift */,
+				4E6AA28D241CECDB00448A87 /* locationViewController.swift */,
+				37E10412241F679B00A5BD8D /* dua'sCollectionViewCell.swift */,
+			);
+			path = "more merged";
+			sourceTree = "<group>";
+		};
+		4E6AA290241CED2200448A87 /* Hajj */ = {
+			isa = PBXGroup;
+			children = (
+				4E6AA294241CED5600448A87 /* Viewcontroller */,
+				4E6AA291241CED3A00448A87 /* view */,
+			);
+			path = Hajj;
+			sourceTree = "<group>";
+		};
+		4E6AA291241CED3A00448A87 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4E6AA2AA241CFA6600448A87 /* Assets.xcassets */,
+				4E6AA292241CED4F00448A87 /* Hajj.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E6AA294241CED5600448A87 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				4E6AA29A241CED8900448A87 /* Hajj2TableViewCell.swift */,
+				4E6AA297241CED7D00448A87 /* Hajj2ViewController.swift */,
+				4E6AA299241CED8500448A87 /* HajjTableViewCell.swift */,
+				4E6AA298241CED8100448A87 /* HajjViewController.swift */,
+				4E6AA29B241CED8D00448A87 /* Zakat2TableViewCell.swift */,
+				4E6AA296241CED7900448A87 /* Zakat2ViewController.swift */,
+				4E6AA295241CED7500448A87 /* ZakatTableViewCell.swift */,
+				4E6AA29C241CED9200448A87 /* ZakatViewController.swift */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		4EAA474C23F927C8004FC46C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4EAA474D23F9283E004FC46C /* SairaSemiCondensed-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D65F901858A796CAEBE249C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FABC3CC6BB2DFC4B9673F53 /* Pods-islamicGadgetArena.debug.xcconfig */,
+				354CBBBD77257CF7AA86D3A5 /* Pods-islamicGadgetArena.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3751485023EE8EA3006EF27A /* islamicGadget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3751486323EE8EA4006EF27A /* Build configuration list for PBXNativeTarget "islamicGadget" */;
+			buildPhases = (
+				FC1807655240E80DF9686F58 /* [CP] Check Pods Manifest.lock */,
+				3751484D23EE8EA3006EF27A /* Sources */,
+				3751484E23EE8EA3006EF27A /* Frameworks */,
+				3751484F23EE8EA3006EF27A /* Resources */,
+				BD183021AFA5E974A4C8314D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = islamicGadget;
+			productName = islamicGadgetArena;
+			productReference = 3751485123EE8EA3006EF27A /* islamicGadget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3751484923EE8EA3006EF27A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Shahid Sabir";
+				TargetAttributes = {
+					3751485023EE8EA3006EF27A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 3751484C23EE8EA3006EF27A /* Build configuration list for PBXProject "islamicGadget" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3751484823EE8EA3006EF27A;
+			productRefGroup = 3751485223EE8EA3006EF27A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3751485023EE8EA3006EF27A /* islamicGadget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3751484F23EE8EA3006EF27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3751485F23EE8EA4006EF27A /* LaunchScreen.storyboard in Resources */,
+				4E6AA286241CE61900448A87 /* Assets.xcassets in Resources */,
+				42455D722427BCDB000EA18D /* Assets.xcassets in Resources */,
+				3751485C23EE8EA4006EF27A /* Assets.xcassets in Resources */,
+				4E6AA2AB241CFA6600448A87 /* Assets.xcassets in Resources */,
+				4E6582182414E32000E73543 /* Notification.storyboard in Resources */,
+				4E6AA281241CE10300448A87 /* moreStoryboard.storyboard in Resources */,
+				4E2ECD6623FBCFCE00EBA034 /* Login.storyboard in Resources */,
+				4E56272F23FBF20500B1DA27 /* GoogleService-Info.plist in Resources */,
+				4E6AA293241CED4F00448A87 /* Hajj.storyboard in Resources */,
+				3751485A23EE8EA3006EF27A /* Main.storyboard in Resources */,
+				4EAA474E23F9283E004FC46C /* SairaSemiCondensed-Medium.ttf in Resources */,
+				4E3F08F6240CD485000FEBA9 /* Tutorial.storyboard in Resources */,
+				4EAA474923F91B28004FC46C /* Location.storyboard in Resources */,
+				4E6AA25F241CD56D00448A87 /* kalima.storyboard in Resources */,
+				4E6AA25E241CD21100448A87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD183021AFA5E974A4C8314D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-islamicGadgetArena/Pods-islamicGadgetArena-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-islamicGadgetArena/Pods-islamicGadgetArena-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-islamicGadgetArena/Pods-islamicGadgetArena-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC1807655240E80DF9686F58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-islamicGadgetArena-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3751484D23EE8EA3006EF27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3F08F8240CD60E000FEBA9 /* tutorialViewController.swift in Sources */,
+				4E6AA29D241CED9200448A87 /* ZakatTableViewCell.swift in Sources */,
+				4E6AA2A4241CED9200448A87 /* ZakatViewController.swift in Sources */,
+				4E6AA2A2241CED9200448A87 /* Hajj2TableViewCell.swift in Sources */,
+				4E991D07240BD21F00F4559F /* contentCollectionViewCell.swift in Sources */,
+				4E6AA24C241CB0C200448A87 /* MapViewControllerDelegate.swift in Sources */,
+				4E6AA28F241CECDC00448A87 /* locationViewController.swift in Sources */,
+				4E6AA24F241CB0C200448A87 /* CompassViewController.swift in Sources */,
+				4E6AA28E241CECDC00448A87 /* locationTableViewCell.swift in Sources */,
+				4E998A9F23F2BC2600B6F665 /* PageViewController.swift in Sources */,
+				4E2B160923FD35AD006B59B7 /* ForgotPasswordViewController.swift in Sources */,
+				4E2B160B23FD3632006B59B7 /* SignUpViewController.swift in Sources */,
+				4E6AA274241CDCE100448A87 /* ramadanCollectionViewCell.swift in Sources */,
+				4E6AA24A241CB0C200448A87 /* LocationDelegate.swift in Sources */,
+				4E6AA25C241CB6B700448A87 /* kalimaCustomTableViewCell.swift in Sources */,
+				4E6582162414E30F00E73543 /* NotificationViewController.swift in Sources */,
+				4E6AA267241CDBF800448A87 /* salatdetilseViewController.swift in Sources */,
+				4E6AA2A3241CED9200448A87 /* Zakat2TableViewCell.swift in Sources */,
+				37E10413241F679B00A5BD8D /* dua'sCollectionViewCell.swift in Sources */,
+				4E56273123FBF81800B1DA27 /* AlertClass.swift in Sources */,
+				4E6AA24E241CB0C200448A87 /* CLLocation+Extension.swift in Sources */,
+				4E6AA26B241CDBF800448A87 /* salatTableViewCell.swift in Sources */,
+				4E6AA272241CDCE100448A87 /* ramadanViewController.swift in Sources */,
+				4E6AA257241CB17E00448A87 /* kalimadetilseViewController.swift in Sources */,
+				4E6AA268241CDBF800448A87 /* salatViewController.swift in Sources */,
+				3751485723EE8EA3006EF27A /* HomeViewController.swift in Sources */,
+				4E6AA269241CDBF800448A87 /* customsalatTableViewCell.swift in Sources */,
+				4E21EF3F240BB3A300229B2E /* prayerTime.swift in Sources */,
+				4EF33F1D2406506A00B648B6 /* Datamodel.swift in Sources */,
+				4E6AA2A1241CED9200448A87 /* HajjTableViewCell.swift in Sources */,
+				3751485523EE8EA3006EF27A /* AppDelegate.swift in Sources */,
+				4E6AA282241CE10300448A87 /* moreViewController.swift in Sources */,
+				4E6AA280241CE10300448A87 /* moreCollectionViewCell.swift in Sources */,
+				4E2ECD6823FBCFEA00EBA034 /* LoginViewController.swift in Sources */,
+				4E21EF3D240B961D00229B2E /* salattimeCollectionViewCell.swift in Sources */,
+				4E6AA2A0241CED9200448A87 /* HajjViewController.swift in Sources */,
+				4EAA474B23F91B7B004FC46C /* LocationViewController.swift in Sources */,
+				4E2DBB3F240117DE00569DEC /* customTableViewCell.swift in Sources */,
+				4E6AA24B241CB0C200448A87 /* MapViewController.swift in Sources */,
+				4E6AA24D241CB0C200448A87 /* UserDefauts+Extensions.swift in Sources */,
+				4E6AA288241CE93400448A87 /* dua'sViewController.swift in Sources */,
+				4E6AA29F241CED9200448A87 /* Hajj2ViewController.swift in Sources */,
+				4E6AA273241CDCE100448A87 /* ramadandetilsViewController.swift in Sources */,
+				4E6AA26A241CDBF800448A87 /* myCollectionViewCell.swift in Sources */,
+				4E6AA271241CDCE100448A87 /* ramadanTableViewCell.swift in Sources */,
+				4E6AA29E241CED9200448A87 /* Zakat2ViewController.swift in Sources */,
+				4E6AA256241CB17E00448A87 /* kalimaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3751485823EE8EA3006EF27A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3751485923EE8EA3006EF27A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3751485D23EE8EA4006EF27A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3751485E23EE8EA4006EF27A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3751486123EE8EA4006EF27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3751486223EE8EA4006EF27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3751486423EE8EA4006EF27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FABC3CC6BB2DFC4B9673F53 /* Pods-islamicGadgetArena.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2UD2A6RB3;
+				INFOPLIST_FILE = islamicGadgetArena/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shahid-Sabir.islamicGadgetMerged";
+				PRODUCT_NAME = islamicGadget;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3751486523EE8EA4006EF27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354CBBBD77257CF7AA86D3A5 /* Pods-islamicGadgetArena.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2UD2A6RB3;
+				INFOPLIST_FILE = islamicGadgetArena/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shahid-Sabir.islamicGadgetMerged";
+				PRODUCT_NAME = islamicGadget;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3751484C23EE8EA3006EF27A /* Build configuration list for PBXProject "islamicGadget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3751486123EE8EA4006EF27A /* Debug */,
+				3751486223EE8EA4006EF27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3751486323EE8EA4006EF27A /* Build configuration list for PBXNativeTarget "islamicGadget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3751486423EE8EA4006EF27A /* Debug */,
+				3751486523EE8EA4006EF27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3751484923EE8EA3006EF27A /* Project object */;
+}

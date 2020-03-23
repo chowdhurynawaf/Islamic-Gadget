@@ -1,0 +1,6 @@
+framework module Pods_islamicGadgetArena {
+  umbrella header "Pods-islamicGadgetArena-umbrella.h"
+
+  export *
+  module * { export * }
+}

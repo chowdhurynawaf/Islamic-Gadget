@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uqG-QE-HKW">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Page View Controller-->
+        <scene sceneID="F0O-Aq-yIL">
+            <objects>
+                <pageViewController storyboardIdentifier="tutorialPagesNavigation" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="uqG-QE-HKW" customClass="PageViewController" customModule="islamicGadgetArena" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lgs-ZZ-D8i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17" y="-88"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="2N8-bn-SgP">
+            <objects>
+                <viewController storyboardIdentifier="first" id="fJ5-dW-yCC" customClass="tutorialViewController" customModule="islamicGadgetArena" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CAe-n3-yK0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02_Walkthrough V1" translatesAutoresizingMaskIntoConstraints="NO" id="api-WD-Dds">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hj5-0b-R3X">
+                                <rect key="frame" x="313" y="44" width="47" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="2JF-bY-t2y"/>
+                                    <constraint firstAttribute="height" constant="24" id="2O0-wV-hTN"/>
+                                </constraints>
+                                <state key="normal" image="Skip"/>
+                                <connections>
+                                    <action selector="firstButton:" destination="fJ5-dW-yCC" eventType="touchUpInside" id="52J-3y-dEv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hj5-0b-R3X" firstAttribute="top" secondItem="ecH-4j-I0O" secondAttribute="top" constant="44" id="6ni-Sf-j7M"/>
+                            <constraint firstItem="api-WD-Dds" firstAttribute="leading" secondItem="ecH-4j-I0O" secondAttribute="leading" id="Fue-IX-WvD"/>
+                            <constraint firstItem="ecH-4j-I0O" firstAttribute="trailing" secondItem="hj5-0b-R3X" secondAttribute="trailing" constant="15" id="Qjl-q3-XHq"/>
+                            <constraint firstItem="api-WD-Dds" firstAttribute="trailing" secondItem="ecH-4j-I0O" secondAttribute="trailing" id="T7F-vX-msO"/>
+                            <constraint firstAttribute="bottom" secondItem="api-WD-Dds" secondAttribute="bottom" id="emF-15-AiO"/>
+                            <constraint firstItem="api-WD-Dds" firstAttribute="top" secondItem="CAe-n3-yK0" secondAttribute="top" id="h5f-lU-rMe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ecH-4j-I0O"/>
+                    </view>
+                    <connections>
+                        <segue destination="L78-Vd-Ohi" kind="modal" identifier="firstSkipToSignUp" modalPresentationStyle="fullScreen" id="FQI-xd-hyC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6lj-1d-TAF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-359.19999999999999" y="563.56821589205401"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="vYq-x8-MMW">
+            <objects>
+                <viewController storyboardIdentifier="second" id="qO8-S8-5qF" customClass="tutorialViewController" customModule="islamicGadgetArena" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wbG-N4-kms">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02_Walkthrough V2" translatesAutoresizingMaskIntoConstraints="NO" id="9Sd-BD-9Qo">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTU-EG-NjB">
+                                <rect key="frame" x="313" y="44" width="47" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="TmR-oO-V0M"/>
+                                    <constraint firstAttribute="height" constant="24" id="uXk-5X-Z83"/>
+                                </constraints>
+                                <state key="normal" image="Skip"/>
+                                <connections>
+                                    <action selector="secondButton:" destination="qO8-S8-5qF" eventType="touchUpInside" id="AJt-2v-tyO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="9Sd-BD-9Qo" secondAttribute="bottom" id="0Y9-Sn-lW9"/>
+                            <constraint firstItem="9Sd-BD-9Qo" firstAttribute="trailing" secondItem="rfz-YF-vcw" secondAttribute="trailing" id="E8E-UU-wMR"/>
+                            <constraint firstItem="9Sd-BD-9Qo" firstAttribute="top" secondItem="wbG-N4-kms" secondAttribute="top" id="GaI-aU-YrT"/>
+                            <constraint firstItem="9Sd-BD-9Qo" firstAttribute="leading" secondItem="rfz-YF-vcw" secondAttribute="leading" id="UQb-fe-lfr"/>
+                            <constraint firstItem="rfz-YF-vcw" firstAttribute="trailing" secondItem="uTU-EG-NjB" secondAttribute="trailing" constant="15" id="W6o-ud-cEO"/>
+                            <constraint firstItem="uTU-EG-NjB" firstAttribute="top" secondItem="rfz-YF-vcw" secondAttribute="top" constant="44" id="fy9-Ys-1pI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rfz-YF-vcw"/>
+                    </view>
+                    <connections>
+                        <segue destination="L78-Vd-Ohi" kind="modal" identifier="secondSkipToSignUp" modalPresentationStyle="fullScreen" id="BxU-fD-dKD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GuL-F2-Dsx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="272" y="567"/>
+        </scene>
+        <!--Location-->
+        <scene sceneID="CW3-uJ-va1">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="locationViewController" storyboardName="Location" id="L78-Vd-Ohi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wz2-ej-V3l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="250" y="985"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="1LO-Sn-Km7">
+            <objects>
+                <viewController storyboardIdentifier="third" id="hr2-lr-7Ev" customClass="tutorialViewController" customModule="islamicGadgetArena" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="itH-wa-gIA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02_Walkthrough V3" translatesAutoresizingMaskIntoConstraints="NO" id="Qbc-rU-IMJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mb2-2W-iHC">
+                                <rect key="frame" x="313" y="44" width="47" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="eiw-pM-U8i"/>
+                                    <constraint firstAttribute="height" constant="24" id="h4k-wQ-9Ua"/>
+                                </constraints>
+                                <state key="normal" image="Skip"/>
+                                <connections>
+                                    <action selector="thirdButton:" destination="hr2-lr-7Ev" eventType="touchUpInside" id="wCw-NM-QIB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Qbc-rU-IMJ" secondAttribute="trailing" constant="0.01" id="1R0-1q-we0"/>
+                            <constraint firstItem="Qbc-rU-IMJ" firstAttribute="leading" secondItem="itH-wa-gIA" secondAttribute="leading" constant="0.01" id="6ah-ik-JVD"/>
+                            <constraint firstItem="NDp-8E-h4i" firstAttribute="trailing" secondItem="mb2-2W-iHC" secondAttribute="trailing" constant="15" id="CEJ-Wy-EbZ"/>
+                            <constraint firstAttribute="bottom" secondItem="Qbc-rU-IMJ" secondAttribute="bottom" constant="0.01" id="OuQ-Ul-xLg"/>
+                            <constraint firstItem="mb2-2W-iHC" firstAttribute="top" secondItem="NDp-8E-h4i" secondAttribute="top" constant="44" id="SA4-rK-OrG"/>
+                            <constraint firstItem="Qbc-rU-IMJ" firstAttribute="top" secondItem="itH-wa-gIA" secondAttribute="top" constant="0.01" id="i7D-e6-lRu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NDp-8E-h4i"/>
+                    </view>
+                    <connections>
+                        <segue destination="L78-Vd-Ohi" kind="modal" identifier="thirdSkipToSignUp" modalPresentationStyle="fullScreen" id="iVB-2d-VMc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mWw-qx-Wp9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1343" y="521"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="02_Walkthrough V1" width="720" height="1280"/>
+        <image name="02_Walkthrough V2" width="720" height="1280"/>
+        <image name="02_Walkthrough V3" width="720" height="1280"/>
+        <image name="Skip" width="99" height="57"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="iVB-2d-VMc"/>
+    </inferredMetricsTieBreakers>
+</document>
